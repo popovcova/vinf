@@ -60,5 +60,5 @@ def find_similar(file_name):
 
 
 if __name__ == "__main__":
-    file_name = './csv_data/results/membersOf.csv'
+    file_name = '../data/temp/membersOf.csv'
     find_similar(file_name)
