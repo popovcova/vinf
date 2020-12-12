@@ -1,5 +1,5 @@
 import csv
-from src.statistics.distributedCounting import distributed_count
+from src.statistics.distributed_counting import distributed_count
 
 
 def sort_by_citation_count(file_name):

@@ -1,4 +1,4 @@
-from src.statistics.distributedCounting import distributed_count
+from src.statistics.distributed_counting import distributed_count
 
 
 if __name__ == "__main__":
