@@ -35,6 +35,6 @@ def distributed_count(file):
 
 
 if __name__ == "__main__":
-    file_name = '../data/paperLanguages.csv'
+    file_name = '../data/original/paperLanguages.csv'
     # count_languages(file_name)
     distributed_count(file_name)
