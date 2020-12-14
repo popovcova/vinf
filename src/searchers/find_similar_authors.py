@@ -68,7 +68,7 @@ def create_index(file_name, index_dir):
 def find_similar_authors(file_name_index, index_dir, file_name):
     idx = load_index(file_name_index, index_dir)
     h = HTMLParser()
-    with open('./results/similarAuthors.csv', 'w') as f:
+    with open('../datas/results/similarAuthors.csv', 'w') as f:
         writer = csv.writer(f, delimiter='\t', lineterminator='\n')
         writer.writerow(['name', 'similar_name'])
         with open(file_name, 'r') as file:

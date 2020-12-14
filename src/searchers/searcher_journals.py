@@ -61,7 +61,7 @@ def find_name(file_name, index_dir, squery):
 
 
 if __name__ == "__main__":
-    file_name = './data/original/journals.csv'
-    index_dir = './data/index/journals'
+    file_name = '../data/original/journals.csv'
+    index_dir = '../data/index/journals'
     query = input()
     find_name(file_name, index_dir, query)
